@@ -508,3 +508,137 @@
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automobile Solution</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #004aad;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background: #003580;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://i.ibb.co/8rjH2qF/car-service.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+    }
+    .services, .contact {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .services h2, .contact h2 {
+      margin-bottom: 20px;
+      color: #004aad;
+    }
+    .service-box {
+      background: #f4f4f4;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 8px;
+      display: inline-block;
+      width: 250px;
+    }
+    .contact-info {
+      margin: 15px 0;
+    }
+    footer {
+      background: #003580;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    /* WhatsApp Button */
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      text-decoration: none;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🚗 Automobile Solution</h1>
+    <p>Your Trusted Car Service Partner</p>
+  </header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h2>Welcome to Automobile Solution</h2>
+    <p>We provide top-quality automobile repair and maintenance services.</p>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-box">
+      <h3>🛠 Engine Repair</h3>
+      <p>Complete engine diagnostics and repair.</p>
+    </div>
+    <div class="service-box">
+      <h3>🔧 Tire Service</h3>
+      <p>Tire replacement, balancing & alignment.</p>
+    </div>
+    <div class="service-box">
+      <h3>🔋 Battery Service</h3>
+      <p>Battery checkup and replacement.</p>
+    </div>
+    <div class="service-box">
+      <h3>🚘 Car Wash</h3>
+      <p>Full body wash and detailing.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">📞 Phone: +8801XXXXXXXXX</div>
+    <div class="contact-info">📧 Email: info@automobilesolution.com</div>
+    <div class="contact-info">📍 Address: Dhaka, Bangladesh</div>
+  </section>
+
+  <footer>
+    <p>© 2025 Automobile Solution | All Rights Reserved</p>
+  </footer>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/8801XXXXXXXXX" class="whatsapp-btn" target="_blank">💬</a>
+</body>
+</html>
