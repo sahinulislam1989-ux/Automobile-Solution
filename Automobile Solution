@@ -27,3 +27,115 @@
   <p>Contact us: support@automobilesolution.com</p>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automobile Solution</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url("https://i.ibb.co/2M0M1Jk/car-garage.jpg") no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 20px;
+    }
+    .services {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .services h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    .service-box {
+      display: inline-block;
+      width: 250px;
+      margin: 15px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="https://i.ibb.co/3Y3GBg6/automobile-solution-logo.png" alt="Automobile Solution Logo">
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to Automobile Solution</h1>
+    <p>Your Trusted Car Service Partner</p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-box">
+      <h3>⚙️ Engine Repair</h3>
+      <p>Expert engine diagnostics and repair services.</p>
+    </div>
+    <div class="service-box">
+      <h3>🛞 Tire Replacement</h3>
+      <p>High-quality tire replacement & balancing.</p>
+    </div>
+    <div class="service-box">
+      <h3>🔋 Battery Service</h3>
+      <p>Quick battery checkup and replacement.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Automobile Solution | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
