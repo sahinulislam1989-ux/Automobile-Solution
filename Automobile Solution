@@ -430,3 +430,81 @@
   </footer>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Automobile Solution</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    header { background: #003366; color: #fff; padding: 20px; text-align: center; }
+    nav { background: #0055a5; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .hero { padding: 50px; text-align: center; background: #f4f4f4; }
+    .services { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+    .service-box { background: #e8f0fe; margin: 10px; padding: 20px; border-radius: 10px; width: 250px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    footer { background: #003366; color: #fff; text-align: center; padding: 15px; margin-top: 30px; }
+    .contact { padding: 20px; text-align: center; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>🚗 Automobile Solution</h1>
+    <p>Your Trusted Car Service Partner</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h2>Welcome to Automobile Solution</h2>
+    <p>We provide top-quality automobile repair and maintenance services.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2 style="text-align:center;">Our Services</h2>
+    <div class="services">
+      <div class="service-box">
+        <h3>⚙ Engine Repair</h3>
+        <p>Expert engine diagnostics and repair services.</p>
+      </div>
+      <div class="service-box">
+        <h3>🛞 Tire Service</h3>
+        <p>Tire replacement, balancing & alignment.</p>
+      </div>
+      <div class="service-box">
+        <h3>🔋 Battery Service</h3>
+        <p>Battery checkup and replacement.</p>
+      </div>
+      <div class="service-box">
+        <h3>🧽 Car Wash</h3>
+        <p>Professional cleaning inside and outside.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>📞 Contact Us</h2>
+    <p>Phone: <a href="tel:01962419405">01962419405</a></p>
+    <p>Email: info@automobilesolution.com</p>
+    <p>Address: Dhaka, Bangladesh</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Automobile Solution | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
